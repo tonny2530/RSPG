@@ -17,8 +17,9 @@ import th.ac.kmitl.rspg.response.SelectAllNewsResponse;
 import th.ac.kmitl.rspg.util.StringUtil;
 
 public class SelectAllNewsService {
-
-    private final static String URL = "http://161.246.58.128/rspg_service/WebService.asmx?WSDL";
+//    Update New IP @23/09/2019
+    private final static String URL = "http://161.246.34.253/rspg_service/WebService.asmx?WSDL";
+//     private final static String URL = "http://161.246.58.128/rspg_service/WebService.asmx?WSDL";
     private final static String NAMESPACE = "http://tempuri.org/";
     private final static String SOAP_ACTION = "http://tempuri.org/SelectAllNews";
     private final static String METHOD_NAME = "SelectAllNews";
