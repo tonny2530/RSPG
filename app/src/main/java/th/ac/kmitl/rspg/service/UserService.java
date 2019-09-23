@@ -22,7 +22,7 @@ public class UserService {
     private final static String FullURL = "http://161.246.34.253/rspg_service/WebService.asmx?WSDL";
     private final static String URL = "/rspg_service/WebService.asmx?WSDL";
     private final static String NAMESPACE = "http://tempuri.org/";
-    private final static String SOAP_ACTION_LOGIN_USER_SERVICE = "http://tempuri.org/LoginUser";m
+    private final static String SOAP_ACTION_LOGIN_USER_SERVICE = "http://tempuri.org/LoginUser";
     private final static String SOAP_ACTION_GET_DOMAIN_URL_SERVICE = "http://tempuri.org/GetDomainURL";
     private final static String METHOD_NAME_LOGIN_USER_SERVICE = "LoginUser";
     private final static String SOAP_ACTION_SELECT_USER_SERVICE = "http://tempuri.org/SelectUser";
