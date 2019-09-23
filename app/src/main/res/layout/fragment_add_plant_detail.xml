@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="340dp"
+    android:layout_height="match_parent"
+    tools:context=".fragment.PlantFragmentDetail">
+
+    <EditText
+        android:id="@+id/plant_local_name_edttxt"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/PtextView2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toEndOf="@+id/PtextView6"
+        android:background="@drawable/border_purple"
+        android:fontFamily="@font/waffle_light"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/PtextView2"
+        app:layout_constraintTop_toBottomOf="@+id/plant_code_edttxt" />
+
+    <EditText
+        android:id="@+id/plant_sci_name_edttxt"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/PtextView2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toEndOf="@+id/PtextView6"
+        android:background="@drawable/border_purple"
+        android:fontFamily="@font/waffle_light"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintStart_toEndOf="@+id/PtextView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plant_local_name_edttxt" />
+
+    <EditText
+        android:id="@+id/plant_normal_name_edttxt"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/PtextView2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toEndOf="@+id/PtextView6"
+        android:background="@drawable/border_purple"
+        android:fontFamily="@font/waffle_light"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintStart_toEndOf="@+id/PtextView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plant_sci_name_edttxt" />
+
+    <TextView
+        android:id="@+id/PtextView"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/waffle_light"
+        android:text="@string/plant_code_man"
+        android:textSize="24sp"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/PtextView2"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/PtextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/waffle_light"
+        android:text="@string/plant_local_name_man"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PtextView" />
+
+    <TextView
+        android:id="@+id/PtextView5"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/PtextView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/waffle_light"
+        android:text="@string/plant_normal_name_man"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PtextView6" />
+
+    <TextView
+        android:id="@+id/PtextView6"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/PtextView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/waffle_light"
+        android:text="@string/plant_sci_name_man"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PtextView2" />
+
+    <EditText
+        android:id="@+id/plant_code_edttxt"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/PtextView2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toEndOf="@+id/PtextView6"
+        android:background="@drawable/border_purple"
+        android:fontFamily="@font/waffle_light"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintStart_toEndOf="@+id/PtextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:layout_width="340dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/PtextView3"
+                android:layout_width="382dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/waffle_light"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:text="@string/plant_indetail"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/plant_indetail_edttxt"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/border_purple"
+                android:ems="10"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:id="@+id/PtextView4"
+                android:layout_width="382dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/waffle_light"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:text="@string/plant_benefit"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/plant_benefit_edttxt"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/border_purple"
+                android:ems="10"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

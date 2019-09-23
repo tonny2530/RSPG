@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="340dp"
+    android:layout_height="match_parent"
+    tools:context=".fragment.CreatureFragmentDetail">
+
+    <EditText
+        android:id="@+id/creature_local_name_edttxt"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/CtextView2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/border_purple"
+        android:fontFamily="@font/waffle_light"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/CtextView2"
+        app:layout_constraintTop_toBottomOf="@+id/creature_code_edttxt" />
+
+    <EditText
+        android:id="@+id/creature_sci_name_edttxt"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/CtextView2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toEndOf="@+id/CtextView6"
+        android:background="@drawable/border_purple"
+        android:fontFamily="@font/waffle_light"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/CtextView6"
+        app:layout_constraintTop_toBottomOf="@+id/creature_local_name_edttxt" />
+
+    <EditText
+        android:id="@+id/creature_normal_name_edttxt"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/CtextView2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/border_purple"
+        android:fontFamily="@font/waffle_light"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/CtextView5"
+        app:layout_constraintTop_toBottomOf="@+id/creature_sci_name_edttxt" />
+
+    <TextView
+        android:id="@+id/CtextView"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/waffle_light"
+        android:text="@string/creature_code_man"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/CtextView2"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/CtextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/waffle_light"
+        android:text="@string/creature_local_name_man"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CtextView" />
+
+    <TextView
+        android:id="@+id/CtextView5"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/CtextView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/waffle_light"
+        android:text="@string/creature_normal_name_man"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CtextView6" />
+
+    <TextView
+        android:id="@+id/CtextView6"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/CtextView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/waffle_light"
+        android:text="@string/creature_sci_name_man"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CtextView2" />
+
+    <EditText
+        android:id="@+id/creature_code_edttxt"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/CtextView2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toEndOf="@+id/CtextView6"
+        android:background="@drawable/border_purple"
+        android:fontFamily="@font/waffle_light"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/CtextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="340dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230dp"
+        android:fadeScrollbars="false"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/CtextView3"
+                android:layout_width="382dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/waffle_light"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:text="@string/creature_indetail"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/creature_indetail_edttxt"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/border_purple"
+                android:ems="10"
+                android:gravity="top"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:inputType="textMultiLine"
+                android:lines="4"/>
+
+            <TextView
+                android:id="@+id/CtextView4"
+                android:layout_width="382dp"
+                android:layout_height="29dp"
+                android:layout_below="@+id/CtextView2"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/waffle_light"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:text="@string/creature_benefit"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/creature_benefit_edttxt"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/border_purple"
+                android:ems="10"
+                android:gravity="top"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:inputType="textMultiLine"
+                android:lines="4" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

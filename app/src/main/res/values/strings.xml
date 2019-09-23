@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">RSPG</string>
+    <string name="app_name_bar">RSPG-KMITL</string>
+    <string name="title_activity_slide_menu">slide_menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="action_search">Search</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">หน้าแรก</string>
+    <string name="nav_news">ข่าวสาร</string>
+    <string name="nav_habitat">พันธุ์พืช</string>
+    <string name="nav_creature">พันธุ์สัตว์</string>
+    <string name="nav_logout">ออกจากระบบ</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_plant_creature">พันธุ์พืช/พันธุ์สัตว์</string>
+    <string name="nav_result_list">ผลการค้นหา</string>
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>หน้าแรก</item>
+        <item>ข่าวสาร</item>
+        <item>พันธุ์พืช</item>
+        <item>พันธุ์สัตว์</item>
+        <item>ออกจากระบบ</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="no_result">ไม่พบผลลัพธ์ในการค้นหา</string>
+    <string name="no_feed_news">ไม่พบข่าวสาร</string>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">ออกจากระบบ</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="plant_add_header">เพิ่มพันธุ์พืช</string>
+    <string name="plant_code">รหัสพรรณไม้</string>
+    <string name="plant_local_name">ชื่อพื้นเมือง</string>
+    <string name="plant_normal_name">ชื่อสามัญ</string>
+    <string name="plant_sci_name">ชื่อวิทยาศาสตร์</string>
+    <string name="plant_indetail">ลักษณะพรรณไม้</string>
+    <string name="plant_benefit">ประโยชน์</string>
+    <string name="plant_code_man">รหัสพรรณไม้*</string>
+    <string name="plant_local_name_man">ชื่อพื้นเมือง*</string>
+    <string name="plant_normal_name_man">ชื่อสามัญ*</string>
+    <string name="plant_sci_name_man">ชื่อวิทยาศาสตร์*</string>
+    <string name="symbol_colon">:</string>
+    <string name="mandatory">*</string>
+
+    <string name="creature_add_header">เพิ่มพันธุ์สัตว์</string>
+    <string name="creature_code">รหัสพันธุ์สัตว์</string>
+    <string name="creature_local_name">ชื่อพื้นเมือง</string>
+    <string name="creature_normal_name">ชื่อสามัญ</string>
+    <string name="creature_sci_name">ชื่อวิทยาศาสตร์</string>
+    <string name="creature_indetail">ลักษณะพันธุ์สัตว์</string>
+    <string name="creature_benefit">ประโยชน์</string>
+    <string name="creature_code_man">รหัสพันธุ์สัตว์*</string>
+    <string name="creature_local_name_man">ชื่อพื้นเมือง*</string>
+    <string name="creature_normal_name_man">ชื่อสามัญ*</string>
+    <string name="creature_sci_name_man">ชื่อวิทยาศาสตร์*</string>
+
+</resources>
