@@ -61,7 +61,7 @@ public class LoginActivity extends AppCompatActivity {
                 Context context = getApplicationContext();
                 SharedPreferences mPrefs = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
                 domainUrl = mPrefs.getString("DomailURL", "");
-
+                domainUrl = domainUrl.replace("\"", "");
                 req = new LoginUserRequest();
                 req.setUserName(editTxtUserName.getText().toString());
                 req.setPassword(editTxtPassword.getText().toString());
@@ -104,6 +104,7 @@ public class LoginActivity extends AppCompatActivity {
             if(!"".equalsIgnoreCase(tempUrl)){
                 prefs = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
                 SharedPreferences.Editor prefsEditor = prefs.edit();
+                tempUrl = tempUrl.replace("\"", "");
                 prefsEditor.putString("DomailURL", tempUrl);
                 prefsEditor.commit();
             }else{
