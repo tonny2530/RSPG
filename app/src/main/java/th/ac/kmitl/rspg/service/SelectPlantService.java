@@ -14,8 +14,9 @@ import th.ac.kmitl.rspg.request.SelectPlantRequest;
 import th.ac.kmitl.rspg.response.SelectPlantResponse;
 
 public class SelectPlantService {
-
-    private final static String URL = "http://161.246.58.128/rspg_service/WebService.asmx?WSDL";
+//    Update New IP @23/09/2019
+    private final static String URL = "http://161.246.34.253/rspg_service/WebService.asmx?WSDL";
+//     private final static String URL = "http://161.246.58.128/rspg_service/WebService.asmx?WSDL";
     private final static String NAMESPACE = "http://tempuri.org/";
     private final static String SOAP_ACTION = "http://tempuri.org/SelectPlant";
     private final static String PARAMETER_LOG_USER_ID = "log_user_id";
