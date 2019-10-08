@@ -149,17 +149,17 @@ public class AddCreatureActivity extends AppCompatActivity {
         tabOne.setTypeface(tabOne.getTypeface(), Typeface.BOLD);
         tabLayout.getTabAt(0).setCustomView(tabOne);
 
-        TextView tabTwo = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
-        tabTwo.setText("แผนที่");
-        tabTwo.setTextSize(24);
-        tabTwo.setTypeface(tabTwo.getTypeface(), Typeface.BOLD);
-        tabLayout.getTabAt(1).setCustomView(tabTwo);
+//        TextView tabTwo = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
+//        tabTwo.setText("แผนที่");
+//        tabTwo.setTextSize(24);
+//        tabTwo.setTypeface(tabTwo.getTypeface(), Typeface.BOLD);
+//        tabLayout.getTabAt(1).setCustomView(tabTwo);
 
         TextView tabThree = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
         tabThree.setText("เพิ่มรูปภาพ");
         tabThree.setTextSize(24);
         tabThree.setTypeface(tabThree.getTypeface(), Typeface.BOLD);
-        tabLayout.getTabAt(2).setCustomView(tabThree);
+        tabLayout.getTabAt(1).setCustomView(tabThree);
     }
 
 //    @Override
@@ -171,7 +171,7 @@ public class AddCreatureActivity extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new CreatureFragmentDetail(), "รายละเอียด");
-        adapter.addFragment(new CreatureFragmentMap(), "แผนที่");
+//        adapter.addFragment(new CreatureFragmentMap(), "แผนที่");
         adapter.addFragment(new CreatureFragmentPicture(), "เพิ่มรูปภาพ");
         viewPager.setAdapter(adapter);
     }
